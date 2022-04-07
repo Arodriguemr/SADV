@@ -1,0 +1,5 @@
+[
+    { "_id" : 1, "Factura" : "", "Descripcion" : "$100 PlayStation Store Gift Card - PS3/ PS4/ PS Vita", "Socio" : "", "Moneda" : "23424", "Tasa" : "23424", "Fecha" : "mié. jul. 10 2019", "ValorLote" : "$ 548.683.776", "Codigos" : ["2342344345", "324324324324", "4324324324", "3543543", "4324234345", "4354354654", "3432424", "3464563534"]},
+    { "_id" : 2, "Factura" : "", "Descripcion" : "$100 Google play", "Socio" : "", "Moneda" : "23424", "Tasa" : "234324", "Fecha" : "mié. jul. 10 2019", "ValorLote" : "$ 5.488.805.376", "Codigos" : ["3532432234", "34234324", "342324324", "234234324", "34534543", "324324324", "34543534", "234234234", "43543543", "234324234", "34534535", "43523324"]},
+    { "_id" : 3, "Factura" : "110719", "Descripcion" : "$10 PlayStation Store Gift Card - PS3/ PS4/ PS Vita", "Socio" : "eG", "Moneda" : "10", "Tasa" : "0.86", "Fecha" : "dom. jun. 30 2019", "ValorLote" : "$ 9", "Codigos" : ["CR7L-KLD4-EDDF"]}
+]

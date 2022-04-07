@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ingreso</class>
+ <widget class="QMainWindow" name="Ingreso">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>449</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>890</width>
+    <height>449</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>890</width>
+    <height>449</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ingreso</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEditContrasena">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ImagenLabel">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>691</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>691</width>
+      <height>431</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Corbel</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botonIngresar">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Ingresar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditUsuario">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 40, 49);
+color: rgb(238, 238, 238);</string>
+    </property>
+    <property name="text">
+     <string>Usuario</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 40, 49);
+color: rgb(238, 238, 238);</string>
+    </property>
+    <property name="text">
+     <string>Contraseña</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelAzul">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>201</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 40, 49);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>labelAzul</zorder>
+   <zorder>botonIngresar</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEditUsuario</zorder>
+   <zorder>ImagenLabel</zorder>
+   <zorder>lineEditContrasena</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditUsuario</tabstop>
+  <tabstop>lineEditContrasena</tabstop>
+  <tabstop>botonIngresar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
